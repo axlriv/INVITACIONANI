@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    min-height: 100vh; /* Asegura que el cuerpo de la página tenga al menos el alto de la ventana. */
+}
+
+#imagen-contenedor {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+#imagen {
+    width: 100px; /* Ajusta el tamaño de la imagen según tus necesidades */
+    cursor: pointer;
+}
